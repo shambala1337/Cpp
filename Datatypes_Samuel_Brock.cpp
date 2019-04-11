@@ -1,6 +1,5 @@
 /*
-    Sam Brock
-    COSC-1436-57004
+ 
     CodeBlocks for Windows
 
     This program will convert user penny values to dollars, quarters,
@@ -11,7 +10,7 @@ using namespace std;
 int main()
 {
 
-    const int dollar = 100, quarter = 25, dime = 10, nickel = 0, penny = 1;
+    const int dollar = 100, quarter = 25, dime = 10, nickel = 5, penny = 1;
     int userValue = 0, temp = 0, temp2 = 2;
     cout << "This program will convert penny values to dollars and change. \n";
     cout << "Please enter the amount of pennies you want to convert. \n";
